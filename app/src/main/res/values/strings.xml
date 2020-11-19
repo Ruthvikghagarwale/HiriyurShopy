@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">HiriyurShopy</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Category_fruits">Fruits</string>
+
+    <string name="Category_vegetable">Vegetable</string>
+
+    <string name="Category_grocery">Groceries</string>
+
+    <string name="Category_ReadyFood">Ready Food</string>
+
+    <string name="product_name">product name</string>
+
+    <string name="add_to_cart">ADD TO CART</string>
+
+    <string name="APPLE">Apple</string>
+
+    <string name="BANANA">Banana</string>
+
+    <string name="MANGO">Mango</string>
+
+    <string name="ORANGE">Orange </string>
+
+    <string name="PAPPAYA">Papaya</string>
+
+    <string name="WATERMWELON">Water melon</string>
+
+    <string name="JACKFRUIT">Jack Fruit</string>
+
+    <string name="PROMOGRANATE">Pomogranate</string>
+
+    <string name="GRAPES">Grapes</string>
+
+    <string name="KIWI">Kiwi</string>
 </resources>
