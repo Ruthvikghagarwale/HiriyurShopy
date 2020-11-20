@@ -4,8 +4,9 @@ import android.content.Context;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
-public class CategoryAdapter {
+public class CategoryAdapter extends FragmentPagerAdapter {
 
     // local variable
     private Context mContext;
@@ -17,14 +18,14 @@ public class CategoryAdapter {
      *           across swipes.
      */
     public CategoryAdapter(Context context, FragmentManager fm) {
-        super();
+        super(fm);
         mContext = context;
     }
 
     /**
      * Return the {@link Fragment} that should be displayed for the given page number.
      */
-   
+
     public Fragment getItem(int position) {
         if (position == 0) {
             return new Groceries();

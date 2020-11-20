@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>QUANTITY</item>
+        <item>1/4KG</item>
+        <item>1/2KG</item>
+        <item>3/4KG</item>
+        <item>1KG</item>
+        <item>2KG</item>
+        <item>3KG</item>
+        <item>4KG</item>
+        <item>5KG</item>
+        <item>10KG</item>
+        <item>25KG</item>
+        <item>50KG</item>
+
+    </string-array>
+
+</resources>

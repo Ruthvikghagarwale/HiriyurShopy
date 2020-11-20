@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/product_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/left_part"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Product_Image"
+            android:layout_width="@dimen/list_item_width"
+            android:layout_height="@dimen/list_item_height"
+            android:src="@drawable/banana" />
+
+        <TextView
+            android:id="@+id/Product_Name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="banana"
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/right_part"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/quantity_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/spinnerItems"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textAlignment="gravity" />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="amount"
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/addtocart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="@string/add_to_cart"
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
